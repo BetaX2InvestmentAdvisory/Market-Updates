@@ -1,5 +1,5 @@
 .container{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 header::after{
@@ -13,21 +13,22 @@ header::after{
 nav{
     float:right ;
 }
-a{
+nav a{
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 40px;
     padding-top: 25px;
     text-decoration: none;
     text-transform: uppercase;
     position: relative;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
     color: black;
 }
-a:hover{
+nav a:hover{
     color: green;
 }
 
-a::before{
+nav a::before{
     content:'';
     display: block;
     height: 5px;
@@ -38,11 +39,11 @@ a::before{
     transition: all ease-in-out 250ms;
 }
 
-a:hover::before{
+nav a:hover::before{
     width: 100%;
 }
 
 hr{
-    width: 80%;
+    width: 100%;
     border:5px solid black;
 }
