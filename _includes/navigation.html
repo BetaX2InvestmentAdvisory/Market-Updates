@@ -2,7 +2,7 @@
   <link href="/css/navigation.css" rel="stylesheet">
 
     <div class = "container">
-        <img src="/_images/favicon.png"alt="logo" width="64" height="64">
+        <img src="/images/favicon.png" alt="logo" width="64" height="64">
         <nav>
         {% for item in site.data.navigation %}
       <a href="{{ item.link }}" {% if page.url == item.link %}style="color: green;"{% endif %}>
