@@ -1,0 +1,15 @@
+<header>
+  <link href="/css/navigation.css" rel="stylesheet">
+
+    <div class = "container">
+        <img src="/favicon.png"alt="logo" width="64" height="64">
+        <nav>
+        {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}style="color: green;"{% endif %}>
+        {{ item.name }}
+      </a>
+    {% endfor %}
+  </nav>
+    </div>
+  <hr>
+</header>

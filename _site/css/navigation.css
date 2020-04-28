@@ -1,0 +1,48 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both
+}
+.logo{
+    float: left;
+}
+nav{
+    float:right ;
+}
+a{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    font-family: sans-serif;
+    color: black;
+}
+a:hover{
+    color: green;
+}
+
+a::before{
+    content:'';
+    display: block;
+    height: 5px;
+    background: green;
+    position: absolute;
+    top:0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+
+a:hover::before{
+    width: 100%;
+}
+
+hr{
+    width: 80%;
+    border:5px solid black;
+}
