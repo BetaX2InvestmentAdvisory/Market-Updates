@@ -1,7 +1,7 @@
 - name: Home
   link: /Market-Updates/
 - name: About
-  link: /Market-Updates//about.html
+  link: /Market-Updates/about.html
 
   plugins:
   - jekyll-feed
