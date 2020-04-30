@@ -1,0 +1,55 @@
+.box{
+    display: flex;
+}
+.box .imgBx{
+    align-self: center;
+}
+.box .content{
+    padding-left: 30px;
+}
+.aboutme{
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+}
+.aboutme:before{
+    content: '';
+    width: 8px;
+    height: 100%;
+    background: black;
+    position: absolute;
+    left: 150px;
+}
+.Experience{
+    background: lightgray;
+    padding:10px;
+    margin: 40px 350px;
+    width: 700px;
+    border-radius: 30px; 
+    position: relative;
+}
+.Experience:after{
+    background: black;
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left:-222px;
+    top: 50%;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+.aboutme .CompanyLogo{
+    position: absolute;
+    margin-top: 70px;
+    left: 200px;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h3{
+    margin-top: -10px;
+    font-family: "proxima-nova",sans-serif;
+    font-weight: bolder;
+}

@@ -1,22 +1,17 @@
 body{
     width: 80%;
     margin: 0 auto;
+    padding: 0;
 }
 ul{
     list-style-type: none;
 }
 h1{
-font-family: 'Segoe UI'
+    font-family: 'Segoe UI';
+    margin-bottom: -1px;
 }
 p{
-    font-family: 'Segoe UI'  
-}
-.box{
-    display: flex;
-}
-.box .imgBx{
-    align-self: center;
-}
-.box .content{
-    padding-left: 30px;
+    font-family: 'Segoe UI';
+    margin-top: -1px; 
+     
 }
