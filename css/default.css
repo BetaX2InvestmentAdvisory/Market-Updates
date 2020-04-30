@@ -8,3 +8,15 @@ ul{
 h1{
 font-family: 'Segoe UI'
 }
+p{
+    font-family: 'Segoe UI'  
+}
+.box{
+    display: flex;
+}
+.box .imgBx{
+    align-self: center;
+}
+.box .content{
+    padding-left: 30px;
+}
