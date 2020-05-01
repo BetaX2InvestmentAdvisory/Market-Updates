@@ -3,11 +3,10 @@ layout: default
 title: Home | Beta x2 Investment Advisory
 ---
 <h1>Latest Posts</h1>
-
+<hr />
 <div class="row">
   {% for post in site.posts limit:3 %}
   <div class="span4">
-	<hr />
 	<a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
 	  <p>{% if post.thumbnail %}
 	  <img src="{{ post.thumbnail }}" style="height: 280px" align-self="center" />
