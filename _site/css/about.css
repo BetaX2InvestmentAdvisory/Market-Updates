@@ -1,12 +1,47 @@
+/*Text*/
+h2{
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h3{
+    margin-top: -10px;
+    font-family: "proxima-nova",sans-serif;
+    font-weight: bolder;
+}
+p{
+    margin-bottom: 5px;
+}
+
+/*About Us + Our Orgin */
 .box{
     display: flex;
 }
 .box .imgBx{
     align-self: center;
+    padding-bottom: 30px;
 }
 .box .content{
     padding-left: 30px;
+    padding-bottom: 30px;
+    align-self: center;
 }
+
+/*About Johnson */
+.box1{
+    display: flex;
+}
+.box1 .content1{
+    padding-bottom: 30px;
+    align-self: center;
+    
+}
+.box1 .imgBx1{
+    padding-left: 30px;
+    text-align: center;
+}
+
+/*Timeline*/
 .aboutme{
     overflow: hidden;
     padding: 10px;
@@ -48,17 +83,4 @@
     position: absolute;
     margin-top: 70px;
     left: 200px;
-}
-h2{
-    margin-top: 5px;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-h3{
-    margin-top: -10px;
-    font-family: "proxima-nova",sans-serif;
-    font-weight: bolder;
-}
-p{
-    margin-bottom: 5px;
 }
