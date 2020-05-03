@@ -2,26 +2,28 @@
 layout: default
 title: Home | Beta x2 Investment Advisory
 ---
+<link href="{{ site.baseurl }}/css/index.css" rel="stylesheet">
 <h1>Latest Posts</h1>
 <hr />
-<div class="row">
-  {% for post in site.posts limit:3 %}
-  <div class="span4">
-	<a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a>
-	  <p>{% if post.thumbnail %}
-	  <img src="{{ post.thumbnail }}" style="height: 280px" align-self="center" />
-	  {% else %}
-	  <img src="images/rbc-logo.png"
-  style="height: 280px" align="center" />
-	  {% endif %}</p>
-	  <p>&nbsp;</p>
-	  <p>
-	  {{ post.content | strip_html | truncatewords:20 }}
-	  </p>
-	  <p>
-	  <a class="btn" href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
-	  </p>
-	  <hr/>
-  </div>
-  {% endfor %}
+<div class="Preview">
+	{% for post in site.posts limit:3 %}
+	<a href="{{ site.baseurl }}{{ post.url }}"><div class="Post">
+		<p class="Img">{% if post.thumbnail %}
+			<img src="{{ post.thumbnail }}" height="280px" />
+			{% else %}
+			<img src="images/rbc-logo.png" height="280px" />
+			{% endif %}
+		</p>
+
+	</a>
+	<h2>{{ post.title }}</h2>
+	<p>
+		{{ post.content | strip_html | truncatewords:30 }}
+	</p>
+	<p>	
+	<a class="btn" href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
+</p>
+	<hr />
+</div>
+{% endfor %}
 </div>

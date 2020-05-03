@@ -1,0 +1,25 @@
+.Preview{
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.Post:hover{
+background-color: lightgrey;
+}
+
+.Img{
+    text-align: center;
+    padding-top: 10px;
+}
+
+hr{
+    color: black;
+    margin-bottom: 0px;
+}
+h2{
+    border-top: 0px;
+    padding: 0% 2% 0% 2%;
+}
+p{
+    padding: 0% 2% 0% 2%;
+}

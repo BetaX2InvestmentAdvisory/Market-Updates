@@ -1,6 +1,7 @@
 .container{
     width: 100%;
     margin: 0 auto;
+    padding-top:20px;
 }
 header::after{
     content: '';
@@ -16,12 +17,13 @@ nav{
 nav a{
     display: inline-block;
     margin-left: 40px;
-    padding-top: 25px;
+    padding-top: 40px;
     text-decoration: none;
     text-transform: uppercase;
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
+    font-size: x-large;
     color: black;
 }
 nav a:hover{
@@ -43,7 +45,7 @@ nav a:hover::before{
     width: 100%;
 }
 
-hr{
+header hr{
     width: 100%;
-    border:3px solid black;
+    border:2px solid black;
 }
