@@ -29,7 +29,7 @@ p{
 
 /*About Johnson */
 .box1{
-    display: inline;
+    display: flex;
 }
 .box1 .content1{
     padding-bottom: 30px;
