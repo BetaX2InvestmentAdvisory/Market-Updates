@@ -1,0 +1,22 @@
+---
+layout: default
+title: Past Post | Beta x2 Investment Advisory
+---
+<link href="{{ site.baseurl }}/css/past_posts.css" rel="stylesheet">
+<h1>Past Posts</h1>
+{% for post in site.posts%}
+<div class="row">
+  <div class="span2">
+    {% if post.thumbnail %}
+	<img src="{{ post.thumbnail }}" height = "280px"/>
+	{% else %}
+	<img src="images/favicon.png" />
+	{% endif %}
+  </div>
+  <div class="span10">
+    <p><a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.title }}</h2></a></p>
+	<p>{{ post.content | strip_html | truncatewords: 40 }}
+	</p>
+  </div>
+</div>
+{% endfor %}

@@ -4,14 +4,14 @@ title: Home | Beta x2 Investment Advisory
 ---
 <link href="{{ site.baseurl }}/css/index.css" rel="stylesheet">
 <h1>Latest Posts</h1>
-<hr />
 <div class="Preview">
 	{% for post in site.posts limit:3 %}
+	<div>
 	<a href="{{ site.baseurl }}{{ post.url }}"><div class="Post">
 		<p class="Img">{% if post.thumbnail %}
 			<img src="{{ post.thumbnail }}" height="280px" />
 			{% else %}
-			<img src="images/rbc-logo.png" height="280px" />
+			<img src="images/favicon.png" height="280px" />
 			{% endif %}
 		</p>
 
@@ -23,7 +23,6 @@ title: Home | Beta x2 Investment Advisory
 	<p>	
 	<a class="btn" href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
 </p>
-	<hr />
 </div>
 {% endfor %}
 </div>

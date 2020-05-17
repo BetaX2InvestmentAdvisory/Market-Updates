@@ -2,6 +2,8 @@
   link: 
 - name: About
   link: about.html
+- name: Past Posts
+  link: past_posts.html
 
   plugins:
   - jekyll-feed
