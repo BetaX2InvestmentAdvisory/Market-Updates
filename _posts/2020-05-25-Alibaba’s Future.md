@@ -8,7 +8,7 @@ description: This post is our view toward Alibaba Group and how potential upcomm
 ### Description of Business ###
 Alibaba started as a B2B marketplace in 1999. Jack Ma and his friends founded it in 1999 during the dot com rise in his apartment. Today it is the second-largest e-commerce platform lagging only Amazon and the most valuable company in Asia in 2019 by market cap. Besides e-commerce, the company also operate three different segments known as Cloud Computing, Digital Media and Entertainment and Innovation initiatives and others. Below is a revenue breakdown by segment and companies in each segment. 
 
-|<img src="images/Alibaba's Future/Breakdown.png" width="100%">|<img src="images/Alibaba's Future/Alibaba-Segment-Companies.jpg" width="100%"> |
+|<img src="{{ site.baseurl }}/images/Alibaba's Future/Breakdown.png" width="100%">|<img src="{{ site.baseurl }}/images/Alibaba's Future/Alibaba-Segment-Companies.jpg" width="100%"> |
 
 Alibaba has experienced success over the last two decades from having the highest IPO price for a technology stock ever at the time it public to where it is today. In the upcoming months there will be multiple key events happening. The events are analyzed below.
 
@@ -17,7 +17,7 @@ For the last two decades when you talk about Alibaba the first name that comes t
 
 **My thoughts**
 
-<img style=" float:left; padding-right:20px;" src="images/Alibaba's Future/Daniel Zhang.jpg" width="10%">
+<img style=" float:left; padding-right:20px;" src="{{ site.baseurl }}/images/Alibaba's Future/Daniel Zhang.jpg" width="10%">
 The price of Alibaba stock has priced in Jack Ma’s departure. He has spent the past few year slowly preparing Alibaba for this day. Starting from stepping down from CEO to stepping down from chairman to eventually leaving the BOD soon. 
 Jack Ma’s successor, Daniel Zhang (seen on the left) should be able to take Alibaba greater heights although there will definitely be setback along the way as Alibaba’s main revenue segment, core commerce has reached maturity stage of the business growth cycle. Mr. Zhang would need to deploy a strategy that will continue to allow Alibaba’s revenue to grow at the rate it has in past years. Given Mr. Zhang track record of inventing Single’s Day that contributes to Alibaba recording breaking revenue every year, it is possible to believe he will come up with a strategy that will assist Alibaba to continue growing.
 
