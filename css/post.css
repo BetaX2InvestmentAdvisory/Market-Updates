@@ -1,11 +1,19 @@
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;    
 }
 
 h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
 }
-
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
 p{
     font-family: 'Segoe UI';
     margin-top: -1px; 
