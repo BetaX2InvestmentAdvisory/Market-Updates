@@ -1,43 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <link href="/css/default.css" rel="stylesheet">
-    <link rel="icon" href="/images/favicon.png" type="image/png" sizes="16x16">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <meta charset="utf-8">
-    <title>Microsoft</title>
-  </head>
-  <header>
-  <header>
-  <link href="/css/navigation.css" rel="stylesheet">
-
-    <div class = "container">
-        <img src="/images/favicon.png" alt="logo" width="81" height="81">
-        <nav>
-        
-      <a href="/" >
-        Home
-      </a>
-    
-      <a href="/about.html" >
-        About
-      </a>
-    
-      <a href="/past_posts.html" >
-        Past Posts
-      </a>
-    
-  </nav>
-    </div>
-  <hr>
-</header>
-  </header>
-  <body>
-    <link href="/css/post.css" rel="stylesheet">
-<h1>Microsoft</h1>
-<h2>31 Jul 2020 - Beta X2 Investment Advisroy</h2>
-
-<p><h3 id="breakdown-of-microsoft">Breakdown of Microsoft</h3>
+I"ì	<h3 id="breakdown-of-microsoft">Breakdown of Microsoft</h3>
 <p>Microsoft was founded in 1975 by Bill Gates and Paul Allen. As of  July,2020 8-K report Microsoft has three revenue segments. The segments are: Personal Computing, Intelligent Cloud and Productivity &amp; Business Processes. Below is the weighting of each revenue segment.<br /></p>
 <center>
 <img src="/images/Microsoft/Revenue Segment.png" height="100%" />
@@ -57,6 +18,4 @@
 
 <h3 id="my-opinion">My Opinion</h3>
 <p>Microsoft has been a reliable blue-chip stock throughout the last 20 years. Today it has around a 6% weighting in the S &amp; P 500 and around 11% weighting in the NASDAQ 100. The above shows that Microsoft has a big influence on the market. Personally, I believe the shift of closing all physical store was a great strategic move as it allows Microsoft to focus on the intelligent cloud segment while adapting to the new normal where everything is attempted to be done virtually. From past figures the personal computing segment has not experienced much growth and closing the stores will allow the fund to help accelerate intelligent cloud development. The potential acquisition of TikTok would be an interesting move as Microsoft would be able to reach a new demographic of consumers but at the same time it would create a new segment that would require capital that would take  away from the cloudâ€™s development.</p>
-</p>
-  </body>
-</html>
+:ET

@@ -2,7 +2,7 @@
 title: Microsoft
 layout: post
 author: Beta X2 Investment Advisroy
-thumbnail: images/Apple 2020 WWDC/WWDC20.png
+thumbnail: images/Microsoft/Microsoft.png
 tags: [Microsoft, MSFT, NYSE, NASDAQ, USA]
 description: This post is our view toward Microsoft's development that were presented at the 2020 WWDC.
 ---
@@ -11,11 +11,13 @@ Microsoft was founded in 1975 by Bill Gates and Paul Allen. As of  July,2020 8-K
 <center>
 <img src="{{ site.baseurl }}/images/Microsoft/Revenue Segment.png" height="100%">
 </center>
+
 ### Shift to Cloud and New Normal ###
 Under Nadella’s leadership dating back to 2014, Microsoft has rapidly started adapting to the new trend of internet of things(IoT). This is most noticeable through the intelligent cloud segment. It has been growing at an astonishing rate seeing around 17 -25% growth YoY. This process has been accelerated even further with COVID-19 as Microsoft announced on June 26th a $450 million write off with all physical stores to be closed permanently. 
 <center>
 <img src="{{ site.baseurl }}/images/Microsoft/Intelligent Cloud.jpg" height="100%"> 
 </center>
+
 ### Possible Acquisition? ###
 <center>
 <img src="{{ site.baseurl }}/images/Microsoft/TikTok Logo.jpg" height="100%"> <br>
