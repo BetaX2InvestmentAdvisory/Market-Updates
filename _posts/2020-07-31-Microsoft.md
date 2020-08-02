@@ -4,7 +4,7 @@ layout: post
 author: Beta X2 Investment Advisroy
 thumbnail: images/Microsoft/Microsoft.png
 tags: [Microsoft, MSFT, NYSE, NASDAQ, USA]
-description: This post is our view toward Microsoft's development that were presented at the 2020 WWDC.
+description: This post is our view toward Microsoft's recent development.
 ---
 ### Breakdown of Microsoft ###
 Microsoft was founded in 1975 by Bill Gates and Paul Allen. As of  July,2020 8-K report Microsoft has three revenue segments. The segments are: Personal Computing, Intelligent Cloud and Productivity & Business Processes. Below is the weighting of each revenue segment.<br>
